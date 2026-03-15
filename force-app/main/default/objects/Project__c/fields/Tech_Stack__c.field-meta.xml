@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tech_Stack__c</fullName>
+    <label>Tech Stack</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LWC</fullName>
+                <default>false</default>
+                <label>LWC</label>
+            </value>
+            <value>
+                <fullName>Apex</fullName>
+                <default>false</default>
+                <label>Apex</label>
+            </value>
+            <value>
+                <fullName>Experience Cloud</fullName>
+                <default>false</default>
+                <label>Experience Cloud</label>
+            </value>
+            <value>
+                <fullName>Flows</fullName>
+                <default>false</default>
+                <label>Flows</label>
+            </value>
+            <value>
+                <fullName>REST API</fullName>
+                <default>false</default>
+                <label>REST API</label>
+            </value>
+            <value>
+                <fullName>SOAP API</fullName>
+                <default>false</default>
+                <label>SOAP API</label>
+            </value>
+            <value>
+                <fullName>Platform Events</fullName>
+                <default>false</default>
+                <label>Platform Events</label>
+            </value>
+            <value>
+                <fullName>Data Cloud</fullName>
+                <default>false</default>
+                <label>Data Cloud</label>
+            </value>
+            <value>
+                <fullName>Agentforce</fullName>
+                <default>false</default>
+                <label>Agentforce</label>
+            </value>
+            <value>
+                <fullName>Visualforce</fullName>
+                <default>false</default>
+                <label>Visualforce</label>
+            </value>
+            <value>
+                <fullName>Aura</fullName>
+                <default>false</default>
+                <label>Aura</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

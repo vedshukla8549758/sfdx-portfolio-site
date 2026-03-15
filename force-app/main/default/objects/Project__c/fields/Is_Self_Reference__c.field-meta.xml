@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Self_Reference__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When true, indicates this project record represents the portfolio site itself. Used for special UI treatment.</description>
+    <label>Is Self Reference</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
