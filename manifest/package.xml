@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>Project_Asset__c.Asset_Type__c</members>
+		<members>Project_Asset__c.Asset_URL__c</members>
+		<members>Project_Asset__c.File_Size__c</members>
+		<members>Project_Asset__c.Project__c</members>
+		<members>Project_Asset__c.Sort_Order__c</members>
+		<members>Project_Tag__c.Project__c</members>
+		<members>Project_Tag__c.Tag__c</members>
 		<members>Project__c.Category__c</members>
 		<members>Project__c.Date_Published__c</members>
 		<members>Project__c.Description__c</members>
@@ -16,10 +23,15 @@
 		<members>Project__c.Tech_Stack__c</members>
 		<members>Project__c.Thumbnail_Image_URL__c</members>
 		<members>Project__c.Video_URL__c</members>
+		<members>Tag__c.Color__c</members>
+		<members>Tag__c.Description__c</members>
 		<name>CustomField</name>
 	</types>
 	<types>
+		<members>Project_Asset__c</members>
+		<members>Project_Tag__c</members>
 		<members>Project__c</members>
+		<members>Tag__c</members>
 		<name>CustomObject</name>
 	</types>
 	<version>66.0</version>
